@@ -1,0 +1,459 @@
+tyler13@tyler13-VirtualBox:~$ make
+g++ -c Menu.cpp
+g++ -o lab2 tjr0023_2.o Menu.o Messages.o Users.o Groups.o 
+tyler13@tyler13-VirtualBox:~$ ./lab2
+===========================================================
+|               Distributed TigerBook System!             |
+===========================================================
+
+Please enter user name: George
+
+===========================================================
+|     Welcome to Distributed TigerBook System, George     |
+===========================================================
+
+Broadcast (b), Multicast (m), Unicast (u), Wall (w), Home (h), 
+Create new group (g), Join a group (j), Quit (q)
+
+Choose an option: g
+
+Please enter the group name: #Tigers
+
+===========================================================
+|                New group #Tigers created                |
+===========================================================
+
+Broadcast (b), Multicast (m), Unicast (u), Wall (w), Home (h), 
+Create new group (g), Join a group (j), Quit (q)
+
+Choose an option: j
+
+Please enter the group name: tigers
+
+Please enter a valid group name
+
+Please enter the group name: #Tigers
+
+===========================================================
+|             George has joined group #Tigers             |
+===========================================================
+
+Broadcast (b), Multicast (m), Unicast (u), Wall (w), Home (h), 
+Create new group (g), Join a group (j), Quit (q)
+
+Choose an option: b
+
+Enter message: Join our new #Tigers message group!
+It was fun at the beach.
+How was your summer?
+^!
+
+===========================================================
+|            George has broadcasted a message             |
+===========================================================
+
+Broadcast (b), Multicast (m), Unicast (u), Wall (w), Home (h), 
+Create new group (g), Join a group (j), Quit (q)
+
+Choose an option: q
+
+===========================================================
+|  Thank you for using the Distributed TigerBook System   |
+===========================================================
+
+tyler13@tyler13-VirtualBox:~$ ./lab2
+===========================================================
+|               Distributed TigerBook System!             |
+===========================================================
+
+Please enter user name: Mary
+
+===========================================================
+|      Welcome to Distributed TigerBook System, Mary      |
+===========================================================
+
+Broadcast (b), Multicast (m), Unicast (u), Wall (w), Home (h), 
+Create new group (g), Join a group (j), Quit (q)
+
+Choose an option: j
+
+Please enter the group name: #Tigers
+
+===========================================================
+|              Mary has joined group #Tigers              |
+===========================================================
+
+Broadcast (b), Multicast (m), Unicast (u), Wall (w), Home (h), 
+Create new group (g), Join a group (j), Quit (q)
+
+Choose an option: m
+
+Enter the group name: #tigers
+
+Please enter a group you have previously joined.
+
+Enter the group name: #Tigers
+
+Enter message: Welcome back, guys!
+We had so much fun at Ireland!
+^!
+
+===========================================================
+|        Mary has multicasted a message to #Tigers        |
+===========================================================
+
+Broadcast (b), Multicast (m), Unicast (u), Wall (w), Home (h), 
+Create new group (g), Join a group (j), Quit (q)
+
+Choose an option: q
+
+===========================================================
+|  Thank you for using the Distributed TigerBook System   |
+===========================================================
+
+tyler13@tyler13-VirtualBox:~$ ./lab2
+===========================================================
+|               Distributed TigerBook System!             |
+===========================================================
+
+Please enter user name: Abraham
+
+===========================================================
+|    Welcome to Distributed TigerBook System, Abraham     |
+===========================================================
+
+Broadcast (b), Multicast (m), Unicast (u), Wall (w), Home (h), 
+Create new group (g), Join a group (j), Quit (q)
+
+Choose an option: j
+
+Please enter the group name: #Tigers
+
+===========================================================
+|            Abraham has joined group #Tigers             |
+===========================================================
+
+Broadcast (b), Multicast (m), Unicast (u), Wall (w), Home (h), 
+Create new group (g), Join a group (j), Quit (q)
+
+Choose an option: u
+
+Enter the recipient user name: Mary
+
+Enter message: Good Morning, sunshine!
+When did you get back from Ireland?
+^!
+
+===========================================================
+|         Abraham has unicasted a message to Mary         |
+===========================================================
+
+Broadcast (b), Multicast (m), Unicast (u), Wall (w), Home (h), 
+Create new group (g), Join a group (j), Quit (q)
+
+Choose an option: g
+
+Please enter the group name: #Eagles
+
+===========================================================
+|                New group #Eagles created                |
+===========================================================
+
+Broadcast (b), Multicast (m), Unicast (u), Wall (w), Home (h), 
+Create new group (g), Join a group (j), Quit (q)
+
+Choose an option: j
+
+Please enter the group name: #Tigers
+
+You're already in this group! Please choose another.
+
+Please enter the group name: #Eagles
+
+===========================================================
+|            Abraham has joined group #Eagles             |
+===========================================================
+
+Broadcast (b), Multicast (m), Unicast (u), Wall (w), Home (h), 
+Create new group (g), Join a group (j), Quit (q)
+
+Choose an option: b
+
+Enter message: Just created a new #Eagles group!
+Come one, come all!
+Have a blast!
+^!
+
+===========================================================
+|            Abraham has broadcasted a message            |
+===========================================================
+
+Broadcast (b), Multicast (m), Unicast (u), Wall (w), Home (h), 
+Create new group (g), Join a group (j), Quit (q)
+
+Choose an option: m
+
+Enter the group name: #Tigers
+
+Enter message: I'm enjoying your group too.
+Spent my summer in South Africa; it was amazing! 
+^!
+
+===========================================================
+|      Abraham has multicasted a message to #Tigers       |
+===========================================================
+
+Broadcast (b), Multicast (m), Unicast (u), Wall (w), Home (h), 
+Create new group (g), Join a group (j), Quit (q)
+
+Choose an option: q
+
+===========================================================
+|  Thank you for using the Distributed TigerBook System   |
+===========================================================
+
+tyler13@tyler13-VirtualBox:~$ ./lab2
+===========================================================
+|               Distributed TigerBook System!             |
+===========================================================
+
+Please enter user name: Kate
+
+===========================================================
+|      Welcome to Distributed TigerBook System, Kate      |
+===========================================================
+
+Broadcast (b), Multicast (m), Unicast (u), Wall (w), Home (h), 
+Create new group (g), Join a group (j), Quit (q)
+
+Choose an option: #Eagles
+
+Please enter a valid response.
+
+Broadcast (b), Multicast (m), Unicast (u), Wall (w), Home (h), 
+Create new group (g), Join a group (j), Quit (q)
+
+Choose an option: j
+
+Please enter the group name: #Eagles
+
+===========================================================
+|              Kate has joined group #Eagles              |
+===========================================================
+
+Broadcast (b), Multicast (m), Unicast (u), Wall (w), Home (h), 
+Create new group (g), Join a group (j), Quit (q)
+
+Choose an option: It's time for auburn football!
+
+Please enter a valid response.
+
+Broadcast (b), Multicast (m), Unicast (u), Wall (w), Home (h), 
+Create new group (g), Join a group (j), Quit (q)
+
+Choose an option: m
+
+Enter the group name: #Eagles
+
+Enter message: It's time for Auburn Football!
+^!
+
+===========================================================
+|        Kate has multicasted a message to #Eagles        |
+===========================================================
+
+Broadcast (b), Multicast (m), Unicast (u), Wall (w), Home (h), 
+Create new group (g), Join a group (j), Quit (q)
+
+Choose an option: h
+
+===========================================================
+|                    Kate's Home Page                     |
+===========================================================
+
+Kate (#Eagles) >
+It's time for Auburn Football!
+
+Abraham (#All) >
+Just created a new #Eagles group!
+Come one, come all!
+Have a blast!
+
+More messages> (yes/no): no
+
+Broadcast (b), Multicast (m), Unicast (u), Wall (w), Home (h), 
+Create new group (g), Join a group (j), Quit (q)
+
+Choose an option: h
+
+===========================================================
+|                    Kate's Home Page                     |
+===========================================================
+
+Kate (#Eagles) >
+It's time for Auburn Football!
+
+Abraham (#All) >
+Just created a new #Eagles group!
+Come one, come all!
+Have a blast!
+
+More messages> (yes/no): yes
+
+George (#All) >
+Join our new #Tigers message group!
+It was fun at the beach.
+How was your summer?
+
+Broadcast (b), Multicast (m), Unicast (u), Wall (w), Home (h), 
+Create new group (g), Join a group (j), Quit (q)
+
+Choose an option: q
+
+===========================================================
+|  Thank you for using the Distributed TigerBook System   |
+===========================================================
+
+tyler13@tyler13-VirtualBox:~$ ./lab2
+===========================================================
+|               Distributed TigerBook System!             |
+===========================================================
+
+Please enter user name: Mary
+
+===========================================================
+|      Welcome to Distributed TigerBook System, Mary      |
+===========================================================
+
+Broadcast (b), Multicast (m), Unicast (u), Wall (w), Home (h), 
+Create new group (g), Join a group (j), Quit (q)
+
+Choose an option: h
+
+===========================================================
+|                    Mary's Home Page                     |
+===========================================================
+
+Abraham (#Tigers) >
+I'm enjoying your group too.
+Spent my summer in South Africa; it was amazing!
+
+Abraham (#All) >
+Just created a new #Eagles group!
+Come one, come all!
+Have a blast!
+
+More messages> (yes/no): yes
+
+Abraham (Mary) >
+Good Morning, sunshine!
+When did you get back from Ireland?
+
+Mary (#Tigers) >
+Welcome back, guys!
+We had so much fun at Ireland!
+
+George (#All) >
+Join our new #Tigers message group!
+It was fun at the beach.
+How was your summer?
+
+Broadcast (b), Multicast (m), Unicast (u), Wall (w), Home (h), 
+Create new group (g), Join a group (j), Quit (q)
+
+Choose an option: w
+
+===========================================================
+|                    Mary's Wall Page                     |
+===========================================================
+
+Mary (#Tigers) >
+Welcome back, guys!
+We had so much fun at Ireland!
+
+Broadcast (b), Multicast (m), Unicast (u), Wall (w), Home (h), 
+Create new group (g), Join a group (j), Quit (q)
+
+Choose an option: b
+
+Enter message: Hi all!
+^!
+
+===========================================================
+|             Mary has broadcasted a message              |
+===========================================================
+
+Broadcast (b), Multicast (m), Unicast (u), Wall (w), Home (h), 
+Create new group (g), Join a group (j), Quit (q)
+
+Choose an option: w
+
+===========================================================
+|                    Mary's Wall Page                     |
+===========================================================
+
+Mary (#All) >
+Hi all!
+
+Mary (#Tigers) >
+Welcome back, guys!
+We had so much fun at Ireland!
+
+Broadcast (b), Multicast (m), Unicast (u), Wall (w), Home (h), 
+Create new group (g), Join a group (j), Quit (q)
+
+Choose an option: q
+
+===========================================================
+|  Thank you for using the Distributed TigerBook System   |
+===========================================================
+
+tyler13@tyler13-VirtualBox:~$ ./lab2
+===========================================================
+|               Distributed TigerBook System!             |
+===========================================================
+
+Please enter user name: Abraham
+
+===========================================================
+|    Welcome to Distributed TigerBook System, Abraham     |
+===========================================================
+
+Broadcast (b), Multicast (m), Unicast (u), Wall (w), Home (h), 
+Create new group (g), Join a group (j), Quit (q)
+
+Choose an option: w
+
+===========================================================
+|                   Abraham's Wall Page                   |
+===========================================================
+
+Abraham (#Tigers) >
+I'm enjoying your group too.
+Spent my summer in South Africa; it was amazing!
+
+Abraham (#All) >
+Just created a new #Eagles group!
+Come one, come all!
+Have a blast!
+
+More messages> (yes/no): y  
+
+
+Please enter a valid response.
+More messages> (yes/no): yes
+
+Abraham (Mary) >
+Good Morning, sunshine!
+When did you get back from Ireland?
+
+Broadcast (b), Multicast (m), Unicast (u), Wall (w), Home (h), 
+Create new group (g), Join a group (j), Quit (q)
+
+Choose an option: q
+
+===========================================================
+|  Thank you for using the Distributed TigerBook System   |
+===========================================================
+
+
